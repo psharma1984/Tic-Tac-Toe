@@ -23,11 +23,15 @@ body {
   width: 34px;
 }
 
-
 .board-row:after {
   clear: both;
   content: '';
   display: table;
+}
+
+
+.status {
+  margin-bottom: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
